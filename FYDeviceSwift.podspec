@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Computer/FYDeviceSwift'
+  s.homepage         = 'https://github.com/yanwenbo78201/FYDeviceSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Computer' => 'yanwenbo@Computer.com' }
-  s.source           = { :git => 'https://github.com/Computer/FYDeviceSwift.git', :tag => s.version.to_s }
+  s.author           = { 'Computer' => 'yanwenbo78201@gmail.com' }
+  s.source           = { :git => 'https://github.com/yanwenbo78201/FYDeviceSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'FYDeviceSwift/Classes/**/*'
   
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

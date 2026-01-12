@@ -1,6 +1,4 @@
 import XCTest
-import FYDeviceSwift
-
 class Tests: XCTestCase {
     
     override func setUp() {
