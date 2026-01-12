@@ -1,0 +1,16 @@
+PODS:
+  - FYDeviceSwift (0.1.0)
+
+DEPENDENCIES:
+  - FYDeviceSwift (from `../`)
+
+EXTERNAL SOURCES:
+  FYDeviceSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYDeviceSwift: d8ac9ec9b70a2b440ebac7107657be9dab12d155
+
+PODFILE CHECKSUM: 4c92bde4500ae009dd921b401f3c870d2c0566e3
+
+COCOAPODS: 1.16.2

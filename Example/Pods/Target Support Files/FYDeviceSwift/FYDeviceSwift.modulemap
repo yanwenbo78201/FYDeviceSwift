@@ -1,0 +1,6 @@
+framework module FYDeviceSwift {
+  umbrella header "FYDeviceSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
