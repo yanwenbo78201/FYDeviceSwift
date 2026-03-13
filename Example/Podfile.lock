@@ -1,5 +1,5 @@
 PODS:
-  - FYDeviceSwift (0.1.0)
+  - FYDeviceSwift (0.1.1)
 
 DEPENDENCIES:
   - FYDeviceSwift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FYDeviceSwift: dfb323830ff782c27ad3cfafea33e71e1f2ca7a1
+  FYDeviceSwift: 8dab9d85cb3b79a09268602ee93079fd379dd531
 
 PODFILE CHECKSUM: 4c92bde4500ae009dd921b401f3c870d2c0566e3
 

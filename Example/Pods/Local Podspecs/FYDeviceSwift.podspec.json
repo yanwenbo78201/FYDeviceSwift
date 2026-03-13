@@ -1,19 +1,19 @@
 {
   "name": "FYDeviceSwift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of FYDeviceSwift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Computer/FYDeviceSwift",
+  "homepage": "https://github.com/yanwenbo78201/FYDeviceSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Computer": "yanwenbo@Computer.com"
+    "Computer": "yanwenbo78201@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Computer/FYDeviceSwift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/yanwenbo78201/FYDeviceSwift.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "15.0"
