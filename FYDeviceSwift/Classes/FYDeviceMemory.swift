@@ -81,21 +81,7 @@ public class FYDeviceMemory: NSObject {
     private func formatDiskBytes(_ cashSize: Int) -> String {
         let transByteTotalNum = Double(cashSize)
         let transGNum = transByteTotalNum / (1024 * 1024 * 1024)
-        let transMNum = transByteTotalNum / (1024 * 1024)
+        return String(format: "%.6f", transGNum)
         
-        if transGNum >= 1.0 {
-            return String(format: "%.6f", transGNum)
-        } else if transMNum >= 1.0 {
-            return String(format: "%.6f", transMNum)
-        } else {
-            let formatter = NumberFormatter()
-            formatter.positiveFormat = "###,###,###,###"
-            let bytesNumber = NSNumber(integerLiteral: cashSize)
-            if let bytesFormatted = formatter.string(from: bytesNumber), bytesFormatted.count > 0 {
-                return bytesFormatted
-            } else {
-                return "0"
-            }
-        }
     }
 }
